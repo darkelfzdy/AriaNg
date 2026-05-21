@@ -42,9 +42,7 @@
         };
 
         var isInsecureProtocolDisabled = function () {
-            var protocol = $location.protocol();
-
-            return protocol === 'https';
+            return false;
         };
 
         var getLanguageNameFromAlias = function (alias) {
